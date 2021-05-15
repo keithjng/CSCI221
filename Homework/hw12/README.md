@@ -25,3 +25,7 @@ Using a total of 2,000,000 iterations, with the example parameters of 1000 in a 
 This might sound like an astonishingly high number, but you will be glad to hear that it was significantly shorter than my run with 1 thread. Using the same parameters but with a single thread, my program ran for about 6 minutes and 22 seconds.
 
 My best results were 8878.13, which didn't beat the value in the example but beat my previous results (from part 3) by 3828.27. The best found path can be found in the attached shortest.tsv file. 
+
+## Update on Results 
+
+After my submission, I decided to try running my code on a different machine. I got my dad's Macbook and ran the code. With 4 threads, the code ran in a minute and 33 seconds. With just one thread, it took 5 minutes and 7 seconds. I feel like these results were much more conclusive and showcase the power of multithreading! The results are nowhere near the examples, but they still felt pretty satisfying to see. 
